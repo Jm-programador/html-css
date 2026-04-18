@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+        @font-face {
+            font-family:'Newton' ;
+            src: url(fontes/Newton\ Howard\ Font.ttf);
+
+            
+                --cor0:#025939;
+                --cor1:#F27405;
+                --cor2:#FFFFFF;
+                --cor3:#FF6B1A;
+                --cor4:#B4CF66;
+
+
+            
+            
+        }
+        header{
+            
+            background-size: cover;
+            background-position: bottom;
+            height: 200px;
+            background-image: linear-gradient(to bottom, #F27405,#FFFFFF, #FF6B1A);
+            text-align: center;
+            
+            
+
+        }
+        header h1{
+            
+            font-size: 2.3em;
+            color: #FFFFFF;
+            font-family:'Newton' ;
+        }
+            header p{
+                
+                font-size: 1em;
+                font-weight: bold;
+                color: #B4CF66;
+
+            }
+            header ul{
+                justify-content: space-around;
+                margin-top: 25px;
+               
+                
+                
+
+                
+                list-style: none;
+                display: flex;
+                color: #FFFFFF;
+            }
+            header li {
+                
+                
+
+            }
+            header a{
+                
+
+            }
+    

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    
+  background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/banner.jpg);
+    background-color: black;
+    
+}
+main{
+    background-color: white;
+    width: 200px;
+    
+    
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    
+}
+
+
