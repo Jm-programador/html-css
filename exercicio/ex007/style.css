@@ -1,0 +1,27 @@
+@charset "UTF-8";
+thead {
+    background-color: grey;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    
+}
+.numero {
+    text-align: right;
+}
+tfoot{
+    background-color: grey;
+    color: white;
+}
+caption {
+    background-color: darkgrey;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 10px;
+}
